@@ -333,7 +333,7 @@ class App(CTk.CTk):
         password_name = self.name_entry.get()
         if save_flag == 1:
             args = {"password_name": password_name, "new_password": new_password, "user_id": user_id, "key": key}
-            save_pass_event = requests.get("http://127.0.0.1:5000/save_pass_in_base", params=args)
+            save_pass_event = requ  ests.get("http://127.0.0.1:5000/save_pass_in_base", params=args)
 
 
 #------------------------------------------------------------------------------------------

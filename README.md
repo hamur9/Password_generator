@@ -1,1 +1,1 @@
-Its a users version of password generator
+Password generator for non comertial use
